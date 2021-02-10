@@ -8,7 +8,11 @@
     background-color: #F06C4E !important;
     border-color: #F06C4E !important;
 }
-
+/* Curser style */
+#showing-meals
+{
+    cursor: pointer;
+}
 /*
 For Spinner Loading
 */
