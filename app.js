@@ -40,7 +40,7 @@ const displayMealsData = mealsInfo => {
     mealsInfo.forEach(meal => {
         const mealDiv = document.createElement('div');
         const mealInfo = `
-        <div class="col shadow">
+        <div class="col">
         <div class="card h-100 text-center" onClick="singleMealDeatils(${meal.idMeal});">
           <img src="${meal.strMealThumb}" class="card-img-top" alt="${meal.strMeal}">
           <div class="card-footer">
