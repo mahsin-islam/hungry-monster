@@ -26,7 +26,7 @@ const fetchMealsData = mealsName => {
         .then(res => res.json())
         .then(data => {
             spinner.setAttribute('hidden', '');
-            if(data.meals == null || data.meals == undefined || data.meals === ''){
+            if(data.meals === null || data.meals === undefined || data.meals === ''){
                 mealsNotFound.style.display = 'block';
             } else{
                 displayMealsData(data.meals)
